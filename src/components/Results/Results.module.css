@@ -1,0 +1,26 @@
+.resultsContainer {
+  background-image: url("../../assets/images/results-women.svg");
+  background-repeat: no-repeat;
+  background-position: 724px 25px;
+}
+
+.underTitle {
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 36px;
+}
+
+.resultsTitle {
+  font-family: "Ferry";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+
+.optionsFound {
+  font-size: 18px;
+  line-height: 22px;
+  color: #949494;
+  margin-top: 17px;
+}

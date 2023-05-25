@@ -1,0 +1,14 @@
+.searchContainer {
+    background-image: url(../../assets/images/document.svg), url(../../assets//images/folders.svg), url(../../assets/images/rocket.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /* background-size: 91px 111px, 140px 68px, 400px 470px; */
+    background-position: 878px 132px, 1135px 150px, 928px bottom;
+}
+
+.underTitle {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 25px;
+    max-width: 534px;
+    word-wrap: break-word;
+}

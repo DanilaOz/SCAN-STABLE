@@ -1,0 +1,35 @@
+.hero {
+    height: 620px;
+    background-image: url(../../assets/images/hero-image-background.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 629px 593px;
+}
+
+.heroText {
+    width: 534px;
+    word-wrap: break-word;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.slider {
+    height: 1104px;
+}
+
+.manOnTheBench {
+    margin-top: 50px;
+    height: 576px;
+    background-image: url(../../assets/images/man-on-the-bench.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tariffCardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 118px;
+}

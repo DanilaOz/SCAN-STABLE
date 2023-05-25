@@ -1,0 +1,137 @@
+.login {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../../assets/images/characters-login-page.svg);
+    background-repeat: no-repeat;
+    background-position: 112px 227px;
+}
+
+.loginForm {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 69px 81px 80px 0;
+    padding: 25px 25px 39px 25px;
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTabs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.tabSignIn {
+    color: #029491;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 2px solid #029491;
+    padding: 8px 50px;
+}
+
+.tabReg{
+    color: #C7C7C7;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 2px solid #C7C7C7;
+    padding: 8px 23px;
+}
+
+.tabReg:hover {
+    color: #029491;
+    cursor: pointer;
+    border-bottom: 2px solid #029491;
+}
+
+.formLabel {
+    font-size: 16px;
+    line-height: 19px;
+    color: #949494;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 19px;
+    margin-top: 15px;
+}
+
+.formInput:focus {
+    outline-color: #029491;
+}
+
+.passwordReset {
+    color: #5970FF;
+    margin: 15px auto;
+    font-size: 14px;
+    line-height: 17px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-bottom: 1px solid #5970FF;
+}
+
+.socialText {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #949494;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.socialBtn {
+    background: #FFFFFF;
+    border: 1px solid rgba(89, 112, 255, 0.51);
+    border-radius: 3px;
+    height: 31px;
+    width: 96px;
+    cursor: pointer;
+}
+
+.googleBtn {
+    background-image: url("../../assets/images/icon-google.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.facebookBtn {
+    background-image: url("../../assets/images/icon-facebook.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yandexBtn {
+    background-image: url("../../assets/images/icon-yandex.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lock {
+    position: absolute;
+    z-index: 1;
+    left: 819px;
+    top: 108px;
+}
+
+.errorMessage {
+    color: #FF5959;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 6px auto 0 auto;
+    text-align: center;
+}

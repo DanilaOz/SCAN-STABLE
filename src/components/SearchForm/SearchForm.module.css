@@ -1,0 +1,152 @@
+.searchForm {
+  display: flex;
+  padding: 0 42px 30px 42px;
+  margin-top: 47px;
+  margin-bottom: 64px;
+  max-width: 788px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  gap: 11px;
+}
+
+.handleInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.formLabel sup {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.formInput {
+  font-size: 14px;
+  line-height: 17px;
+  width: 242px;
+  padding: 13px 17px;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+::placeholder {
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in;
+  text-align: center;
+}
+
+.formInput:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.customSelect {
+  width: 242px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.customSelect__indicator-separator {
+  width: 0px;
+}
+
+.formInput:focus {
+  outline-color: #029491;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  padding: 13px 0px;
+  width: 176px;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.date:focus {
+  outline-color: #029491;
+}
+
+.errorMessage {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ff5959;
+  margin-top: 5px;
+  align-self:auto;
+}
+
+.endDate {
+  margin-left: 20px;
+}
+
+.checkBoxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkBoxesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkBoxLabel {
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.firstCheckbox {
+  margin-top: 43px;
+}
+
+.checkbox {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.checkbox:checked::after {
+  content: url(../../assets/images/tariff-includes-item.svg);
+}
+
+.checkbox:not(:checked) + .checkBoxLabel {
+    opacity: 0.4;
+}
+
+.checkbox:checked::after + .checkBoxLabel {
+    opacity: 1;
+}
+
+.mark {
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 55px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+}
+

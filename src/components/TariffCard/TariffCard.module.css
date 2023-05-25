@@ -1,0 +1,107 @@
+.card {
+    width: 415px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.cardDescription {
+    padding-left: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cardHead {
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardHeadText {
+    padding-left: 30px;
+}
+
+.cardTitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tariffImage {
+    padding-right: 15px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 36px;
+    gap: 19px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.crossedOutPrice {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.installmentPayment {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tariffIncludes {
+    padding-top: 59px;
+}
+
+.includesTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.includesList {
+    padding-top: 10px;
+}
+
+.includesItem {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.itemText {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.currentTariff {
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #3BA5E0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px 13px;
+    position: relative;
+    left: 20px;
+    top: -28px;
+}
